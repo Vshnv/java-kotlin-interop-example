@@ -7,4 +7,7 @@ fun main() {
     //kotlin - java usage
     val javaHuman = JHuman("JavaUser", 22)
     println("${javaHuman.name}--${kotlinHuman.age}")
+
+    kotlinHuman.sayHi()
+    javaHuman.sayHi()
 }

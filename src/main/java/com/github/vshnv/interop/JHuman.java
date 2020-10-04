@@ -16,4 +16,8 @@ public class JHuman {
     public int getAge() {
         return age;
     }
+
+    public void sayHi() {
+        System.out.println("Java hi!");
+    }
 }

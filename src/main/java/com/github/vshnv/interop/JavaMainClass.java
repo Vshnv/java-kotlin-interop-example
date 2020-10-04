@@ -8,5 +8,8 @@ public class JavaMainClass {
         //java - kotlin usage
         KHuman kotlinHuman = new KHuman("Kotliner", 15);
         System.out.println(kotlinHuman.getName() + "--" + kotlinHuman.getAge());
+
+        javaHuman.sayHi();
+        kotlinHuman.sayHi();
     }
 }
